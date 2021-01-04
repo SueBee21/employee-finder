@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/navbar';
 import Table from './components/table';
-import Search from './components/search';
+import Search from './components/search'
 import {Component} from "react";
 import api from "./utils/api";
 
@@ -20,7 +21,8 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <Search/>
+        <Navbar />
+        <Search />
         <Table employeeData={this.state.employeeData}/>
       </div>
     );

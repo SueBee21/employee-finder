@@ -2,9 +2,9 @@ import React from "react";
 
 function Table(props) {
     return (
-        <table class="table">
+        <table className="table">
             <thead>
-                <tr>
+                <tr id="table-row">
                     <th scope="col">Picture</th>
                     <th scope="col">First</th>
                     <th scope="col">Last</th>
@@ -15,7 +15,7 @@ function Table(props) {
             <tbody>
                 {props.employeeData.length > 0 ? props.employeeData.map(employee => {
                     return (
-                        <tr>
+                        <tr id="employee-info">
                             <th scope="row"><img src={employee.picture.medium} alt="employee photo" /></th>
                             <td>{employee.name.first}</td>
                             <td>{employee.name.last}</td>
