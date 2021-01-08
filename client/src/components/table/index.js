@@ -1,4 +1,5 @@
 import React from "react";
+import Sort from "../sort/index"
 
 function Table(props) {
     return (
@@ -7,7 +8,7 @@ function Table(props) {
                 <tr id="table-row">
                     <th scope="col">Picture</th>
                     <th scope="col">First</th>
-                    <th scope="col">Last</th>
+                    <th scope="col" onClick={Sort}>Last</th>
                     <th scope="col">Email</th>
                     <th scope="col">Phone</th>
                 </tr>

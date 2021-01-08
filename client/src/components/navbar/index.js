@@ -6,6 +6,8 @@ function Navbar (props){
             <h1>Employee Directory</h1>
             <p>Click on the carrots to sort by heading, or use the search box to narrow results.</p>
             <Search />
+
+            
         </div>
     )
 };

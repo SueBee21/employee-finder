@@ -22,7 +22,6 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <Search />
         <Table employeeData={this.state.employeeData}/>
       </div>
     );
