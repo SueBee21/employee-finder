@@ -6,8 +6,8 @@ function Table(props) {
             <thead>
                 <tr id="table-row">
                     <th scope="col">Picture</th>
-                    <th scope="col" onClick={()=> props.handleSort("first")}>First</th>
-                    <th scope="col" onClick={()=> props.handleSort("last")}>Last</th>
+                    <th scope="col" onClick={() => props.handleSort("first")}>First</th>
+                    <th scope="col" onClick={() => props.handleSort("last")}>Last</th>
                     <th scope="col">Email</th>
                     <th scope="col">Phone</th>
                 </tr>

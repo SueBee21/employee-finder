@@ -2,10 +2,7 @@ import React from "react";
 import Table from "../table/index"
 import Api from "../../utils/api"
 
-
 class Search extends React.Component {
-
-
     render() {
         return (
             <div className="input-group flex-nowrap">
@@ -13,10 +10,6 @@ class Search extends React.Component {
             </div>
         )
     }
-
-
 }
-
-
 
 export default Search;
