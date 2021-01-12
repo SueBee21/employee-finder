@@ -4,11 +4,12 @@
   "description": "## Description  This application is an employee directory that would allow an employee or manager to view non-sensitive information about other employees.  This application allows the user to search for a specific employee or sort the full list alphabetically by first or last name.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/SueBee21/employee-finder/issues"
   },
-  "homepage": "https://github.com/SueBee21/employee-finder",
+  "homepage": "https://Suebee21.github.io/employee-finder",
   "dependencies": {
     "gh-pages": "^3.1.0"
   }
