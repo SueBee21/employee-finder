@@ -21,7 +21,7 @@ As a user, I want to be able to view my entire employee directory at once so tha
 
 ## Deployed Application
 https://suebee21.github.io/employee-finder/
-
+<img width="1792" alt="Screen Shot 2021-01-12 at 11 43 05 AM" src="https://user-images.githubusercontent.com/68358265/104344664-6dabc500-54cb-11eb-89d9-d777fdcf44c9.png">
   
 ## Credits
 * This application is created using React libraries.
